@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="hide">
+      <h1>Welcome <span class="name">Player</span>,</h1>
+      <button class="reset game-btn">Try Again</button>
+      <button class="logout game-btn">Log Out</button>
+    </header>
+    <main class="hide">
+      <section class="left">
+        <h2>Guess a number between 1 - <span class="number">2</span></h2>
+        <p class="message">Start guessing...</p>
+        <input type="number" class="guess" placeholder="Input a number" />
+        <br />
+        <button class="check game-btn">Check</button>
+      </section>
+      <section class="right">
+        <p class="level-label">Stage <span class="level">1</span></p>
+        <p class="score-label">Total Score: <span class="score">0</span></p>
+      </section>
+    </main>
+    <form action="" class="form">
+      <input type="text" class="user-name" placeholder="Enter your name" />
+      <button class="enter btn">Enter</button>
+    </form>
+  </body>
+</html>

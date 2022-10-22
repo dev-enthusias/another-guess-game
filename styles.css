@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: #222;
+}
+
+/* Layout */
+header {
+  height: 20vh;
+  padding: 0 10px;
+  border-bottom: 3px solid white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  width: 100%;
+  height: 80vh;
+}
+
+.form {
+  width: 90%;
+  height: 200px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left {
+  height: 65%;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid white;
+}
+
+.right {
+  height: 35%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Elememts */
+.user-name {
+  font-size: 15px;
+  padding: 6px;
+  width: 80%;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.user-name::placeholder {
+  color: white;
+}
+
+.btn {
+  margin-top: 10px;
+  font-size: 16px;
+  padding-block: 7px;
+  width: 30%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #222;
+}
+
+h1 {
+  font-size: 1.7em;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.level-label {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.game-btn {
+  padding: 5px 19px;
+  font-size: 16px;
+}
+
+.guess {
+  font-size: 30px;
+  margin-bottom: 10px;
+  width: 70%;
+  padding: 6px 8px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  text-align: center;
+}
+
+.guess::placeholder {
+  color: rgb(192, 188, 188);
+}
+
+.score-label {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+}
+
+/* Hides part of the UI */
+.hide {
+  display: none;
+}
